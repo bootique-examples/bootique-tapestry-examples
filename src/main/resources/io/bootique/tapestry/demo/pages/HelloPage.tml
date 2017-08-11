@@ -1,0 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+<body>
+    <div>
+        <h1>Hi ${name} ${data}!</h1><br/>
+        <a href="${signOutLink}">SignOut</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html t:type="Wrapper" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+<body>
+    <h1>bootique-tapestry-demo!</h1>
+    <div t:type="lib/c1"></div>
+</body>
+</html>
