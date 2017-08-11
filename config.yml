@@ -1,0 +1,5 @@
+tapestry:
+  appPackage: io.bootique.tapestry.demo
+  filterOrder: 1
+  productionMode: false
+  urlPattern: '/*'
