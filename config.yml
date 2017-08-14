@@ -1,0 +1,9 @@
+jetty:
+  context: '/myapp'
+  connectors:
+    - port: 9999
+tapestry:
+  appPackage: io.bootique.tapestry.demo
+  filterOrder: 1
+  productionMode: false
+  urlPattern: '/*'

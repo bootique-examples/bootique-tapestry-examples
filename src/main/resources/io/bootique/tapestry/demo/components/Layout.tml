@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+    <head>
+        <title>bootique-tapestry-demo</title>
+    </head>
+    <body>
+        <div class="nav-top">
+            bootique-tapestry-demo
+        </div>
+        <t:body/>
+        <div class="nav-bottom">
+            Ref: <a href="https://github.com/bootique-examples">bootique-examples</a>
+        </div>
+    </body>
+</html>

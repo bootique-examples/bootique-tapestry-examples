@@ -1,0 +1,6 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+    <div class="demo">
+        <h1>Hi ${name} ${data}!</h1><br/>
+        <a href="${signOutLink}">SignOut</a>
+    </div>
+</html>
