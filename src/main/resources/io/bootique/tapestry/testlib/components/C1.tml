@@ -1,0 +1,10 @@
+<t:container xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+    <div class="demo">
+        <t:form t:id="loginForm">
+            <h1>${val}</h1>
+            <t:textfield t:id="userName" validate="required" t:mixins="formgroup"/>
+            <t:passwordfield t:id="password" value="password" validate="required" t:mixins="formgroup"/>
+            <t:submit value="Sign in"/>
+        </t:form>
+    </div>
+</t:container>

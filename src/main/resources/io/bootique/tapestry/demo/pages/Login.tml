@@ -1,0 +1,5 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+    <h1>Welcome to the bootique-tapestry-demo!</h1>
+    <div t:type="lib/c1"></div>
+</html>

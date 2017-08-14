@@ -1,0 +1,45 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #333;
+    line-height: 17px;
+    width: 500px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 20px;
+}
+
+form {
+    margin: 0;
+}
+
+.demo {
+    margin: 20px 0;
+    padding: 20px;
+    color: #888;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -mox-border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #3D69B6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-top {
+}
+
+.nav-bottom {
+    float: right;
+}
+
