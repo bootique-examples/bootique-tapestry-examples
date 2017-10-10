@@ -31,6 +31,11 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.apache.tapestry</groupId>
+                <artifactId>tapestry-webresources</artifactId>
+                <version>5.4.3</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -46,6 +51,10 @@
         <dependency>
             <groupId>io.bootique.tapestry</groupId>
             <artifactId>bootique-tapestry</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-webresources</artifactId>
         </dependency>
     </dependencies>
 
