@@ -5,6 +5,7 @@ import io.bootique.tapestry.TapestryModule;
 import io.bootique.tapestry.demo.services.AppModule;
 import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.services.LibraryMapping;
+import org.apache.tapestry5.webresources.modules.WebResourcesModule;
 
 public class Application implements Module {
 
@@ -23,6 +24,7 @@ public class Application implements Module {
                 .setSymbol(SymbolConstants.START_PAGE_NAME, "Login")
                 //additional root package for the application
                 .addLibraryMapping(new LibraryMapping("lib", "io.bootique.tapestry.testlib"))
-                .addTapestryModule(AppModule.class);
+                .addTapestryModule(AppModule.class)
+                .addTapestryModule(WebResourcesModule.class);
     }
 }
