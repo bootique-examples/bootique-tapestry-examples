@@ -13,7 +13,8 @@ public class Application implements Module {
 
         Bootique.app(args).autoLoadModules()
                 .module(Application.class)
-                .exec();
+                .exec()
+                .exit();
     }
 
     @Override
