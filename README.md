@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bootique-examples/bootique-tapestry-demo.svg)](https://travis-ci.org/bootique-examples/bootique-tapestry-demo)
+[![verify](https://github.com/bootique-examples/bootique-tapestry-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-tapestry-demo/actions/workflows/verify.yml)
 # bootique-tapestry-demo
 
 An example of a simple login page developed with [Tapestry](http://tapestry.apache.org) 
