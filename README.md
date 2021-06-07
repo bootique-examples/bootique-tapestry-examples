@@ -6,6 +6,10 @@ integrated into [Bootique](http://bootique.io).
 
 *For additional help/questions about this example send a message to
 [Bootique forum](https://groups.google.com/forum/#!forum/bootique-user).*
+
+You can find different versions of framework in use at
+* [1.x](https://github.com/bootique-examples/bootique-tapestry-demo/tree/1.x)
+* [2.x](https://github.com/bootique-examples/bootique-tapestry-demo/tree/2.x)
    
 ## Prerequisites
       
